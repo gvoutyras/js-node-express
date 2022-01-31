@@ -1,0 +1,7 @@
+{
+  "ignore": [".git", "node_modules"],
+  "verbose": false,
+  "watch": ["./**"],
+  "exec": "cd src&& node server.js --log --dev --db",
+  "ext": "js,json"
+}

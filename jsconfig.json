@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@utilities": ["utilities/*"] ,
+      "@logger": ["lib/logger.js"],
+      "@schemas": ["schemas/*"],
+      "@services": ["services/*"],
+      "@lib": ["lib/*"],
+      "@env": ["../environment.js"]
+    }
+  }
+}
